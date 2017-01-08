@@ -1,24 +1,10 @@
-# ShopifyRevenue
+This program was written as part of a Shopify internship application,
+and the endpoint it hits is specific to that task.
 
-**TODO: Add description**
+With [Elixir](http://elixir-lang.org/install.html) installed:
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
-  1. Add `shopify_revenue` to your list of dependencies in `mix.exs`:
-
-    ```elixir
-    def deps do
-      [{:shopify_revenue, "~> 0.1.0"}]
-    end
-    ```
-
-  2. Ensure `shopify_revenue` is started before your application:
-
-    ```elixir
-    def application do
-      [applications: [:shopify_revenue]]
-    end
-    ```
+1. Clone this repo and cd into the shopify_revenue folder
+2. Run `mix deps.get` to install dependencies
+3. Start the Elixir interactive shell with `iex -S mix`
+4. Run `ShopifyRevenue.main`
 
