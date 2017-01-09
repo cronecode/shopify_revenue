@@ -31,4 +31,8 @@ defmodule ShopifyRevenue do
         Poison.Parser.parse!(body)
     end
 
+    def decode_json(%HTTPoison.Response{body: body, status_code: _}) do
+        IO.puts "Nope, you broke it."
+    end
+
 end
