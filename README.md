@@ -1,5 +1,4 @@
-This program was written as part of a Shopify internship application,
-and the endpoint it hits is specific to that task.
+A command-line tool that calculates total order revenue after taxes.
 
 With [Elixir](http://elixir-lang.org/install.html) installed:
 
